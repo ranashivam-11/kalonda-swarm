@@ -1,0 +1,9 @@
+# Source: Rana (2026), SSRN 6297482, Appendix B.1, Table IV, p.13.
+# Specific core loss, Epstein frame (IEC 60404-2). Anisotropy factor as printed (TD/RD ratio).
+B_T,f_Hz,P_max_W_per_kg,P_typ_W_per_kg,anisotropy_factor
+1.0,50,1.70,1.35,1.12
+1.5,50,4.00,3.15,1.15
+1.0,60,2.15,1.74,1.12
+1.5,60,5.10,4.06,1.16
+1.0,400,14.5,12.1,1.08
+1.5,400,38.2,32.0,1.10

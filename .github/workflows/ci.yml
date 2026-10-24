@@ -1,0 +1,61 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  firmware-host:
+    name: firmware core (gcc, -Werror) + sanitizers
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: build and unit-test
+        run: |
+          cmake -S firmware -B firmware/build -DCMAKE_BUILD_TYPE=Release
+          cmake --build firmware/build -j 4
+          cd firmware/build && ctest --output-on-failure
+      - name: AddressSanitizer + UBSan
+        run: |
+          cmake -S firmware -B firmware/build-asan -DCMAKE_BUILD_TYPE=Debug -DKS_SANITIZE=ON
+          cmake --build firmware/build-asan -j 4
+          cd firmware/build-asan && ctest --output-on-failure
+
+  firmware-esp32:
+    name: ESP32 image (ESP-IDF v5.5.1)
+    runs-on: ubuntu-24.04
+    container: espressif/idf:v5.5.1
+    steps:
+      - uses: actions/checkout@v4
+      - name: idf.py build
+        shell: bash
+        run: |
+          . $IDF_PATH/export.sh
+          cd firmware/ports/esp32
+          idf.py build
+          idf.py size
+
+  python:
+    name: analysis stack against the firmware (SIL)
+    runs-on: ubuntu-24.04
+    needs: firmware-host
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install
+        run: pip install -e ".[dev]"
+      - name: build the SIL library
+        run: |
+          cmake -S firmware -B firmware/build -DCMAKE_BUILD_TYPE=Release
+          cmake --build firmware/build -j 4 --target ks_sil
+      - name: tests
+        run: python -m pytest python/tests
+      - name: lint
+        run: ruff check python scripts
+      - name: smoke runs of the scripts
+        run: |
+          python scripts/model_benchmarks.py --fast
+          python scripts/identify_ja.py --fast --seeds 1 -j 2
+          python scripts/run_sil_campaign.py --quick --only E1_coop_from_greedy -j 1

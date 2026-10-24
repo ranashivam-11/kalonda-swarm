@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software or its data, please cite it as below, together with the preprint it accompanies."
+title: "kalonda-swarm: peer-to-peer wake steering for a micro-wind array"
+version: 1.0.0
+date-released: 2026-10-22
+license: MIT
+authors:
+  - family-names: Rana
+    given-names: Shivam
+keywords:
+  - wake steering
+  - multi-agent systems
+  - distributed control
+  - micro wind turbines
+  - GENERIC
+  - Jiles-Atherton hysteresis
+  - particle swarm optimisation
+  - uncertainty quantification
+references:
+  - type: article
+    title: "Thermodynamic Optimization of Electromechanical Energy Conversion: Integrating Magnetothermodynamic Feedback, Metamaterial Flux Concentration, and Non-Equilibrium Control Architectures"
+    authors:
+      - family-names: Rana
+        given-names: Shivam
+    year: 2026
+    journal: "SSRN Electronic Journal (preprint)"
+    url: "https://ssrn.com/abstract=6297482"
+    notes: "SSRN version: February 2026 first submission; Currently under review at Energy Conversion and Management: X (Elsevier Q1) after transfer from Applied Energy (Elsevier Q1)."

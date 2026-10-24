@@ -1,0 +1,20 @@
+# Source: Rana (2026), SSRN 6297482, Appendix B.1, Table III, p.12.
+# Raw B-H data for M400-50A at 50 Hz, mean of rolling (RD) and transverse (TD) directions.
+# mu_r = B/(mu0 H); mu_diff as printed. The H=10 A/m row (B printed as 0.000, mu_r as 0) is
+# below the table's reporting resolution and is excluded from fits (flag below_resolution=1).
+H_A_per_m,B_T,mu_r,mu_diff,below_resolution
+10,0.000,0,,1
+50,0.250,3980,5000,0
+100,0.680,5410,8600,0
+200,1.150,4575,4700,0
+300,1.280,3395,1300,0
+400,1.350,2685,700,0
+500,1.400,2228,500,0
+800,1.490,1482,300,0
+1000,1.520,1209,150,0
+1500,1.580,838,120,0
+2500,1.650,525,70,0
+5000,1.740,277,36,0
+10000,1.830,145,18,0
+20000,1.950,77,12,0
+40000,2.080,41,6.5,0

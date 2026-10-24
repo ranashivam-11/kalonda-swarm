@@ -1,0 +1,16 @@
+# Source: Rana (2026), SSRN 6297482, Appendix D.2, Table VII, p.17.
+# Raw 24-hour telemetry, Unit #14, "typical low-wind day (October 15)". P = EMF * I as printed.
+# The preprint states total daily energy 0.68 kWh for this day.
+time,wind_m_per_s,rpm,emf_V,current_A,power_W,status
+00:00,2.8,120,16.5,0.85,14.0,ON
+02:00,2.4,105,14.2,0.60,8.5,ON
+04:00,1.9,80,10.5,0.20,2.1,Trickle
+06:00,1.5,10,0.0,0.00,0.0,OFF
+08:00,2.2,95,12.8,0.45,5.7,ON
+10:00,3.5,160,22.4,1.10,24.6,ON
+12:00,4.1,210,29.8,1.45,43.2,ON
+14:00,4.8,255,36.5,1.62,59.1,ON
+16:00,5.2,280,40.1,1.80,72.1,Peak
+18:00,3.8,190,26.5,1.25,33.1,ON
+20:00,2.9,135,18.2,0.90,16.3,ON
+22:00,2.5,110,15.0,0.70,10.5,ON

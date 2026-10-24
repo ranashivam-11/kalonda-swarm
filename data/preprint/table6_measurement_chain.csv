@@ -1,0 +1,6 @@
+# Source: Rana (2026), SSRN 6297482, Appendix C, Table VI, p.15. Specifications as printed.
+measurement,model,range,accuracy_spec,u_x_printed
+electrical power,WT3000,100V/5A,+-(0.02+0.04)%,0.04 W
+torque,4503A,0.2-20 Nm,+-0.11% FSO,0.02 Nm
+rotational speed,Laser,0-2000 rpm,+-0.05% rdg,0.1 rpm
+wind speed,Ultrasonic,10-60 m/s,+-1% rdg,0.05 m/s

@@ -1,0 +1,8 @@
+# Source: Rana (2026), SSRN 6297482, Appendix B.2, Table V, p.13. Sintered NdFeB grade N42.
+property,symbol,value_20C,value_80C,temp_coeff_percent_per_K,unit
+residual induction,Br,1.32,1.22,-0.12,T
+coercivity (normal),HcB,875,790,,kA/m
+intrinsic coercivity,HcJ,955,600,-0.60,kA/m
+maximum energy product,BHmax,334,300,,kJ/m3
+Curie temperature,Tc,310,,,degC
+maximum operating temperature,Tmax,80,,,degC

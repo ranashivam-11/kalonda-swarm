@@ -1,0 +1,6 @@
+# Source: Rana (2026), SSRN 6297482, Appendix E.2, Table VIII, p.18.
+system,T_K,S_LSSE_uV_per_K_min,S_LSSE_uV_per_K_max,mechanism
+YIG (Film)/Pt,300,0.8,1.2,Interfacial Magnon
+YIG (Bulk)/Pt,300,8.0,22.0,Bulk Magnon Diff.
+Fe3O4/Pt,300,1.5,1.5,Inv Spin Hall
+GaMnAs,300,1450.0,1450.0,Giant Spin Seebeck

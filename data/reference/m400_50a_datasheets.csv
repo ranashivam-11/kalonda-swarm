@@ -1,0 +1,19 @@
+# Independent datasheet values used to cross-check the preprint's Table III/IV.
+# All retrieved 2026-10-21. "typ" = typical, "min"/"max" = guaranteed limits.
+source,quantity,value,unit,kind,url
+SIJ Acroni SIWATT M400-50A HP (2024),density,7.76,kg/dm3,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),resistivity,0.334,uOhm m,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),thermal conductivity,34.7,W/(m K),typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),P(1.0T 50Hz),1.61,W/kg,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),P(1.5T 50Hz),3.65,W/kg,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),P(1.5T 50Hz),4.00,W/kg,max,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),J(2500 A/m),1.62,T,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),J(5000 A/m),1.71,T,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),J(10000 A/m),1.82,T,typ,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+SIJ Acroni SIWATT M400-50A HP (2024),hardness,130-160,HV10,range,https://cms.sij.si/storage/1399/SIWATT-M400-50A-HP.pdf
+Waelzholz EN 10106 table,conventional density,7.70,kg/dm3,standard,https://www.waelzholz.com/fileadmin/Website-EN/Documents/Data-sheet/waelzholz-electrical-steel-strip-en10106-metric-en.pdf
+Waelzholz EN 10106 table,J(2500 A/m),1.53,T,min,https://www.waelzholz.com/fileadmin/Website-EN/Documents/Data-sheet/waelzholz-electrical-steel-strip-en10106-metric-en.pdf
+Waelzholz EN 10106 table,J(5000 A/m),1.63,T,min,https://www.waelzholz.com/fileadmin/Website-EN/Documents/Data-sheet/waelzholz-electrical-steel-strip-en10106-metric-en.pdf
+Waelzholz EN 10106 table,J(10000 A/m),1.73,T,min,https://www.waelzholz.com/fileadmin/Website-EN/Documents/Data-sheet/waelzholz-electrical-steel-strip-en10106-metric-en.pdf
+Tata Steel SURA M400-50A typical data (2009),resistivity,0.42,uOhm m,typ,https://www.tatasteeluk.com/sites/default/files/m400-50a.pdf
+Tata Steel SURA M400-50A typical data (2009),anisotropy of loss,8,percent,typ,https://www.tatasteeluk.com/sites/default/files/m400-50a.pdf

@@ -1,0 +1,8330 @@
+{
+ "name": "E5_selfish",
+ "utility": 0,
+ "beta": 1.0,
+ "p_loss": 0.05,
+ "burst": false,
+ "seed": 11,
+ "hours": 47.975,
+ "runtime_s": 678.4752585887909,
+ "radio": {
+  "sent": 22914166,
+  "lost": 1145000
+ },
+ "lut_trace_bins": [
+  27,
+  63
+ ],
+ "final_lut": {
+  "0": {
+   "26": 0.0,
+   "27": 0.0,
+   "28": 0.0
+  },
+  "1": {
+   "26": 0.0,
+   "27": 10.0,
+   "28": 0.0
+  },
+  "2": {
+   "26": 0.0,
+   "27": 3.75,
+   "28": 3.75
+  },
+  "3": {
+   "26": 0.0,
+   "27": 5.0,
+   "28": 0.0
+  },
+  "4": {
+   "26": 0.0,
+   "27": 0.0,
+   "28": 0.0
+  },
+  "5": {
+   "26": 0.0,
+   "27": 2.5,
+   "28": 10.0
+  },
+  "6": {
+   "26": 0.0,
+   "27": 4.375,
+   "28": 5.0
+  },
+  "7": {
+   "26": 0.0,
+   "27": 3.75,
+   "28": 0.0
+  },
+  "8": {},
+  "9": {},
+  "10": {},
+  "11": {}
+ },
+ "queries": {
+  "0": {
+   "n_trials": 171.0,
+   "n_accept": 0.0,
+   "n_reject": 19.0,
+   "n_abort": 7.0,
+   "n_hold": 145.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 0.0,
+   "ledger_received_wh": 0.0,
+   "energy_wh": 1133.4879892161132,
+   "epoch": 5760.0,
+   "epoch_adjust": 264.0,
+   "geo_color": 0.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 3.0,
+   "geo_nup": 0.0,
+   "ti": 0.04213694483041763,
+   "cons_dir": 274.1861267089844,
+   "cons_spread": 0.75347900390625,
+   "side_flips": 172.0,
+   "kappa0": 2.549064303742744,
+   "kappa1": 2.0,
+   "nullcal_n0": 737.0,
+   "nullcal_n1": 0.0
+  },
+  "1": {
+   "n_trials": 179.0,
+   "n_accept": 6.0,
+   "n_reject": 20.0,
+   "n_abort": 8.0,
+   "n_hold": 145.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 560.6717584295346,
+   "ledger_received_wh": 0.0,
+   "energy_wh": 1128.111072715096,
+   "epoch": 5760.0,
+   "epoch_adjust": 263.0,
+   "geo_color": 1.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 4.0,
+   "geo_nup": 0.0,
+   "ti": 0.04246458411216736,
+   "cons_dir": 274.2318115234375,
+   "cons_spread": 0.79608154296875,
+   "side_flips": 170.0,
+   "kappa0": 1.9863725955452392,
+   "kappa1": 2.0,
+   "nullcal_n0": 607.0,
+   "nullcal_n1": 0.0
+  },
+  "2": {
+   "n_trials": 169.0,
+   "n_accept": 5.0,
+   "n_reject": 21.0,
+   "n_abort": 7.0,
+   "n_hold": 136.0,
+   "n_conflicts": 6.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 45.80932158884731,
+   "ledger_received_wh": 0.0,
+   "energy_wh": 1130.0892731985502,
+   "epoch": 5760.0,
+   "epoch_adjust": 262.0,
+   "geo_color": 2.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 4.0,
+   "geo_nup": 0.0,
+   "ti": 0.042050354182720184,
+   "cons_dir": 274.12811279296875,
+   "cons_spread": 0.69732666015625,
+   "side_flips": 170.0,
+   "kappa0": 2.351341566688797,
+   "kappa1": 2.0,
+   "nullcal_n0": 626.0,
+   "nullcal_n1": 0.0
+  },
+  "3": {
+   "n_trials": 173.0,
+   "n_accept": 2.0,
+   "n_reject": 21.0,
+   "n_abort": 8.0,
+   "n_hold": 142.0,
+   "n_conflicts": 4.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 74.90674819453062,
+   "ledger_received_wh": 0.0,
+   "energy_wh": 1132.7159383563373,
+   "epoch": 5760.0,
+   "epoch_adjust": 271.0,
+   "geo_color": 0.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 3.0,
+   "geo_nup": 0.0,
+   "ti": 0.042183566838502884,
+   "cons_dir": 274.17022705078125,
+   "cons_spread": 0.735992431640625,
+   "side_flips": 168.0,
+   "kappa0": 2.5331370536993663,
+   "kappa1": 2.0,
+   "nullcal_n0": 703.0,
+   "nullcal_n1": 0.0
+  },
+  "4": {
+   "n_trials": 179.0,
+   "n_accept": 2.0,
+   "n_reject": 19.0,
+   "n_abort": 9.0,
+   "n_hold": 149.0,
+   "n_conflicts": 1.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 22.108331415584274,
+   "ledger_received_wh": 0.0,
+   "energy_wh": 305.16294946866594,
+   "epoch": 5760.0,
+   "epoch_adjust": 164.0,
+   "geo_color": 2.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 1.0,
+   "geo_nup": 1.0,
+   "ti": 0.04263896122574806,
+   "cons_dir": 273.77117919921875,
+   "cons_spread": 0.864471435546875,
+   "side_flips": 173.0,
+   "kappa0": 2.5465110097452763,
+   "kappa1": 2.0,
+   "nullcal_n0": 517.0,
+   "nullcal_n1": 0.0
+  },
+  "5": {
+   "n_trials": 163.0,
+   "n_accept": 2.0,
+   "n_reject": 23.0,
+   "n_abort": 10.0,
+   "n_hold": 128.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 17.874839560080346,
+   "ledger_received_wh": 399.2691855396053,
+   "energy_wh": 320.84456854597056,
+   "epoch": 5760.0,
+   "epoch_adjust": 34.0,
+   "geo_color": 3.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 1.0,
+   "geo_nup": 1.0,
+   "ti": 0.04591990262269974,
+   "cons_dir": 274.35821533203125,
+   "cons_spread": 0.9244384765625,
+   "side_flips": 170.0,
+   "kappa0": 2.8166219387979927,
+   "kappa1": 2.0,
+   "nullcal_n0": 529.0,
+   "nullcal_n1": 0.0
+  },
+  "6": {
+   "n_trials": 179.0,
+   "n_accept": 5.0,
+   "n_reject": 20.0,
+   "n_abort": 16.0,
+   "n_hold": 138.0,
+   "n_conflicts": 5.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 193.95141874627612,
+   "ledger_received_wh": 60.02112340555243,
+   "energy_wh": 321.3275889877951,
+   "epoch": 5760.0,
+   "epoch_adjust": 94.0,
+   "geo_color": 3.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 1.0,
+   "geo_nup": 1.0,
+   "ti": 0.047303587198257446,
+   "cons_dir": 274.453857421875,
+   "cons_spread": 1.017791748046875,
+   "side_flips": 172.0,
+   "kappa0": 2.463488900155173,
+   "kappa1": 2.0,
+   "nullcal_n0": 467.0,
+   "nullcal_n1": 0.0
+  },
+  "7": {
+   "n_trials": 172.0,
+   "n_accept": 4.0,
+   "n_reject": 22.0,
+   "n_abort": 12.0,
+   "n_hold": 134.0,
+   "n_conflicts": 4.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 76.99203473077218,
+   "ledger_received_wh": 48.79084004389449,
+   "energy_wh": 306.46334730563257,
+   "epoch": 5760.0,
+   "epoch_adjust": 100.0,
+   "geo_color": 1.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 1.0,
+   "geo_nup": 1.0,
+   "ti": 0.04319816082715988,
+   "cons_dir": 273.6905822753906,
+   "cons_spread": 0.955474853515625,
+   "side_flips": 171.0,
+   "kappa0": 2.6017357021102767,
+   "kappa1": 2.0,
+   "nullcal_n0": 491.0,
+   "nullcal_n1": 0.0
+  },
+  "8": {
+   "n_trials": 0.0,
+   "n_accept": 0.0,
+   "n_reject": 0.0,
+   "n_abort": 0.0,
+   "n_hold": 0.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 0.0,
+   "ledger_received_wh": 377.55300766140755,
+   "energy_wh": 417.3605291195413,
+   "epoch": 5760.0,
+   "epoch_adjust": 188.0,
+   "geo_color": 3.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 0.0,
+   "geo_nup": 3.0,
+   "ti": 0.04474831745028496,
+   "cons_dir": 273.436767578125,
+   "cons_spread": 1.19671630859375,
+   "side_flips": 0.0,
+   "kappa0": 2.595688153202919,
+   "kappa1": 2.0,
+   "nullcal_n0": 388.0,
+   "nullcal_n1": 0.0
+  },
+  "9": {
+   "n_trials": 0.0,
+   "n_accept": 0.0,
+   "n_reject": 0.0,
+   "n_abort": 0.0,
+   "n_hold": 0.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 0.0,
+   "ledger_received_wh": 221.65573763510773,
+   "energy_wh": 424.70282192629287,
+   "epoch": 5760.0,
+   "epoch_adjust": 0.0,
+   "geo_color": 4.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 0.0,
+   "geo_nup": 4.0,
+   "ti": 0.04192011058330536,
+   "cons_dir": 274.25537109375,
+   "cons_spread": 0.819671630859375,
+   "side_flips": 0.0,
+   "kappa0": 2.792889958050539,
+   "kappa1": 2.0,
+   "nullcal_n0": 257.0,
+   "nullcal_n1": 0.0
+  },
+  "10": {
+   "n_trials": 0.0,
+   "n_accept": 0.0,
+   "n_reject": 0.0,
+   "n_abort": 0.0,
+   "n_hold": 0.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 0.0,
+   "ledger_received_wh": 204.0877939524908,
+   "energy_wh": 434.01299746626927,
+   "epoch": 5760.0,
+   "epoch_adjust": 247.0,
+   "geo_color": 4.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 0.0,
+   "geo_nup": 4.0,
+   "ti": 0.04250675067305565,
+   "cons_dir": 273.9959411621094,
+   "cons_spread": 0.6376953125,
+   "side_flips": 0.0,
+   "kappa0": 2.7577471414661368,
+   "kappa1": 2.0,
+   "nullcal_n0": 255.0,
+   "nullcal_n1": 0.0
+  },
+  "11": {
+   "n_trials": 0.0,
+   "n_accept": 0.0,
+   "n_reject": 0.0,
+   "n_abort": 0.0,
+   "n_hold": 0.0,
+   "n_conflicts": 0.0,
+   "ledger_sacrifice_wh": 0.0,
+   "ledger_credit_wh": 0.0,
+   "ledger_received_wh": 81.76812126719243,
+   "energy_wh": 430.81522532657436,
+   "epoch": 5760.0,
+   "epoch_adjust": 189.0,
+   "geo_color": 3.0,
+   "geo_ncolors": 5.0,
+   "geo_ndown": 0.0,
+   "geo_nup": 3.0,
+   "ti": 0.04678080230951309,
+   "cons_dir": 274.63665771484375,
+   "cons_spread": 1.20318603515625,
+   "side_flips": 0.0,
+   "kappa0": 2.7113497637715254,
+   "kappa1": 2.0,
+   "nullcal_n0": 438.0,
+   "nullcal_n1": 0.0
+  }
+ },
+ "vane_bias_deg": [
+  1.6271931701763858,
+  2.3112700874891905,
+  0.9757764537215768,
+  1.571012971371599,
+  -2.8866088913437324,
+  3.7049908677003507,
+  4.757228519725357,
+  -3.973674291783075,
+  -6.977543285135772,
+  2.6836967140569272,
+  -0.280799886729628,
+  6.734411989237842
+ ],
+ "anemo_gain": [
+  1.0291756807173318,
+  1.030256385905024,
+  0.9869917968751982,
+  0.9925215057373367,
+  0.9708905086093252,
+  1.0305822814225805,
+  1.010899844838138,
+  0.9976970680848624,
+  1.0381407274457441,
+  0.9859552131287964,
+  0.9862751192072334,
+  0.9907860440261148
+ ],
+ "energy_wh": 7482.277866052841,
+ "energy_free_wh": 13616.062444978304,
+ "events": [
+  {
+   "t": 62.0,
+   "node": 6,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 62.0,
+   "node": 10,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 62.1,
+   "node": 1,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 62.1,
+   "node": 2,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 62.1,
+   "node": 3,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 62.1,
+   "node": 4,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 62.1,
+   "node": 11,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 63.1,
+   "node": 5,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 63.1,
+   "node": 9,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 63.1,
+   "node": 12,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 64.0,
+   "node": 7,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 64.0,
+   "node": 8,
+   "event": "MODE",
+   "arg": 0
+  },
+  {
+   "t": 4290.1,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 4290.1,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 4290.1,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 4290.1,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 5370.0,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 5370.0,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 5370.0,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 5370.1,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 6210.1,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6217.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6220.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6223.900000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6226.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6230.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6231.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6336.1,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6342.1,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6399.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6407.0,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 6425.1,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 7350.0,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 7710.0,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 8068.1,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8070.0,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 8070.0,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 8077.0,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8080.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8087.1,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8091.200000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8091.200000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8092.200000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8094.200000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8094.900000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8098.900000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8103.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8111.1,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 8250.0,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 8970.0,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 9417.1,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 9648.1,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 10590.0,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 10769.900000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 10769.900000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 10770.0,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 11129.900000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 11669.900000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 11669.900000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 13109.900000000001,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 14369.800000000001,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 14369.900000000001,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 14729.900000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15089.900000000001,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15269.900000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15269.900000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15269.900000000001,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15449.800000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15449.800000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 15629.900000000001,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 16169.800000000001,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 17036.100000000002,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17038.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17040.8,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17042.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17042.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17044.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17044.3,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17045.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17047.2,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17052.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17053.9,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17060.100000000002,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 17651.100000000002,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17655.9,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17659.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17667.2,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17669.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17672.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17673.3,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17675.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17675.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17679.8,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17682.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17689.100000000002,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 17969.8,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 19049.8,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 19060.100000000002,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19067.9,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19073.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19089.3,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19097.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19104.3,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19105.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19114.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19118.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 19229.8,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 19229.8,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 19257.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19258.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19259.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19260.3,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19261.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19262.3,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19267.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19269.9,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 19276.100000000002,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 20849.7,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 20849.7,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 21029.800000000003,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 21059.7,
+   "node": 5,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 21389.7,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 21389.7,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 21569.7,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 22829.7,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 22829.7,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 23189.7,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 24269.7,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 24873.100000000002,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24880.9,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24882.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24887.300000000003,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24889.4,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24890.4,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24891.4,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24891.4,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24892.600000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24894.7,
+   "node": 6,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24895.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 24899.100000000002,
+   "node": 12,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 25129.2,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25132.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25134.7,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25136.4,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25136.600000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25138.4,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25138.4,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25139.4,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25141.300000000003,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25145.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25146.9,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 25155.100000000002,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26069.600000000002,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 26249.600000000002,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 26423.2,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26429.600000000002,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 26429.600000000002,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 26431.800000000003,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26435.7,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26440.5,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26441.4,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26444.4,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26444.4,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26447.4,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26456.300000000003,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 26614.300000000003,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26616.4,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26618.4,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26619.4,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26621.4,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26621.5,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26626.7,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26631.800000000003,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 26789.600000000002,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 26789.600000000002,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 26809.2,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 27689.600000000002,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 27689.600000000002,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 28769.600000000002,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 29669.600000000002,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 30209.600000000002,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 30389.5,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 30389.600000000002,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 30389.600000000002,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 30569.600000000002,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 31535.2,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31537.800000000003,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31539.600000000002,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31541.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31543.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31543.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31543.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31544.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31547.4,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31551.100000000002,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31552.800000000003,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 31557.2,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 32009.5,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 32189.5,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 32369.5,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 32369.5,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 32909.5,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 33146.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33150.8,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33153.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33159.4,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33163.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33167.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33169.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33173.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33382.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 33384.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 33385.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 33387.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 33392.4,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 33477.4,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33479.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33479.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33479.6,
+   "node": 4,
+   "event": "CONFLICT",
+   "arg": 8
+  },
+  {
+   "t": 33479.6,
+   "node": 8,
+   "event": "CONFLICT",
+   "arg": 4
+  },
+  {
+   "t": 33480.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33481.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33482.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33482.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33484.8,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 33488.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 34169.5,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 34709.5,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 34719.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34727.8,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34747.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34769.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34889.5,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 34961.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34962.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34962.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34963.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34965.4,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34968.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34969.8,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 34974.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 35069.5,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 35249.5,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 35550.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35556.8,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35559.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35566.4,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35569.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35571.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35571.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35573.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35574.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35576.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35580.8,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 35587.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 37049.4,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 37949.4,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 38309.4,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 38562.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38597.8,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38602.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38612.3,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38616.6,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38619.6,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38620.6,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38624.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 38814.5,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 38815.6,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 38816.6,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 38819.6,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 38820.3,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 38849.4,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 39029.4,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 39059.5,
+   "node": 3,
+   "event": "CONFLICT",
+   "arg": 7
+  },
+  {
+   "t": 39060.0,
+   "node": 7,
+   "event": "CONFLICT",
+   "arg": 3
+  },
+  {
+   "t": 39103.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 39105.8,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 39111.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 39389.4,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 39569.4,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 40469.4,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 41160.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41169.700000000004,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41173.4,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41180.200000000004,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41181.600000000006,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41184.600000000006,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41185.600000000006,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41186.600000000006,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41194.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 41312.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41314.600000000006,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41315.600000000006,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41315.600000000006,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41316.200000000004,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41316.600000000006,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41318.4,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41319.700000000004,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41322.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 41549.3,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 41609.3,
+   "node": 11,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 42629.3,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 42989.3,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 43169.200000000004,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 43169.3,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 43349.3,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 44249.3,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 44249.3,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 44547.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44555.700000000004,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44559.4,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44562.200000000004,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44563.600000000006,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44565.600000000006,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44566.700000000004,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44568.600000000006,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44574.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44587.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44592.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44602.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 44969.3,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 45165.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45175.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45179.4,
+   "node": 4,
+   "event": "CONFLICT",
+   "arg": 8
+  },
+  {
+   "t": 45179.4,
+   "node": 8,
+   "event": "CONFLICT",
+   "arg": 4
+  },
+  {
+   "t": 45181.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45206.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45275.600000000006,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45277.700000000004,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45278.600000000006,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45282.600000000006,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45284.200000000004,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45286.4,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45290.700000000004,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 45298.200000000004,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 46049.3,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 46229.200000000004,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 46589.3,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 46589.3,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 46949.200000000004,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 47680.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 47690.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 47694.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 47711.600000000006,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 47809.700000000004,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 47813.700000000004,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 47814.700000000004,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 48092.700000000004,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48093.700000000004,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48094.700000000004,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48097.600000000006,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48102.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48104.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48112.200000000004,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 48389.200000000004,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 48389.200000000004,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 48389.200000000004,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 48749.200000000004,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 49829.200000000004,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 50009.200000000004,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 50189.200000000004,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 50729.200000000004,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 51089.200000000004,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 52169.100000000006,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 52349.100000000006,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 52709.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52713.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52717.3,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52720.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52722.700000000004,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52724.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52725.700000000004,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52727.700000000004,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52732.600000000006,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52745.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 52943.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52948.600000000006,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52950.700000000004,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52951.700000000004,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52951.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52952.700000000004,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52953.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52954.3,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52956.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 52960.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 53429.100000000006,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 53789.100000000006,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 53969.0,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 53969.100000000006,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 53969.100000000006,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 54808.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54814.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54817.200000000004,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54820.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54820.8,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54823.8,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54823.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54825.8,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54831.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54841.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54846.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 54956.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55122.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55134.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55144.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55173.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55182.8,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55184.8,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55185.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55187.8,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55189.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55193.200000000004,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55195.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55205.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 55769.100000000006,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 55769.100000000006,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 55769.100000000006,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 55933.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55936.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55938.200000000004,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55939.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55939.8,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55940.8,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55941.8,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55941.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55944.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55948.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55949.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 55953.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 56669.0,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 57209.0,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 57310.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57323.700000000004,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57327.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57333.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57336.8,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57337.8,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57337.9,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57338.8,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57339.9,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57342.200000000004,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57344.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57348.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 57569.0,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 58109.0,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 58469.0,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 59009.0,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 59697.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59701.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59703.200000000004,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59705.9,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59707.8,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59708.8,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59708.9,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59710.8,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59713.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59722.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59724.600000000006,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 59731.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 60089.0,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 61334.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61349.0,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 61358.600000000006,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61364.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61376.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61379.100000000006,
+   "node": 4,
+   "event": "CONFLICT",
+   "arg": 8
+  },
+  {
+   "t": 61379.100000000006,
+   "node": 8,
+   "event": "CONFLICT",
+   "arg": 4
+  },
+  {
+   "t": 61379.8,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61381.9,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61381.9,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61382.9,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61384.8,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61388.100000000006,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61390.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61397.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 61708.9,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 61888.9,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 61889.0,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 62068.9,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 62428.9,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 63148.8,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 63148.9,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 63633.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63639.600000000006,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63642.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63654.700000000004,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63667.9,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63671.9,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63672.9,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63675.9,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63677.8,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63681.100000000006,
+   "node": 6,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63685.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63693.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 63868.9,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 64479.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64481.600000000006,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64484.100000000006,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64486.8,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64487.9,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64490.0,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64490.9,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64491.9,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64496.8,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64506.100000000006,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64510.600000000006,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 64519.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 65128.9,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 65487.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 65488.9,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 65668.90000000001,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 65668.90000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 66544.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 66568.90000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 66748.8,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 67468.8,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 67468.8,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 68008.8,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 68368.8,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 68548.8,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 68728.8,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 70883.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70888.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70888.8,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 70892.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70896.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70899.0,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70903.0,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70903.0,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70907.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70913.8,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70996.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 70998.6,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 71006.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 71608.8,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 71608.8,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 71706.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71710.6,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71714.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71788.7,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 71788.7,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 71889.8,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71899.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71903.0,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71903.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71908.0,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71909.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71915.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71918.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 71926.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 72508.7,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 72508.7,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 72688.7,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 73181.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73186.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73189.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73192.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73193.0,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73195.0,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73195.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73198.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73407.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73408.0,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73408.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73408.7,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 73409.0,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73409.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73411.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73412.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73417.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73609.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73612.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73615.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73617.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73619.0,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73622.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73623.0,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73625.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 73780.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73783.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73786.0,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73801.0,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73803.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73808.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73812.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 73826.3,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 75568.7,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 75928.6,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 75928.7,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 76108.7,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 76468.7,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 76468.7,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 76468.7,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 76916.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76925.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76929.90000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76937.5,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76939.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76947.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76948.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76952.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76961.90000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 76995.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 77008.6,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 77188.6,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 77196.5,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 77202.3,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 77368.6,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 77546.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77553.5,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77555.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77559.90000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77562.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77563.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77563.1,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77564.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77564.5,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77566.90000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77568.5,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77571.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 77908.6,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 78268.6,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 79708.6,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 80286.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80295.5,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80298.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80306.90000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80312.1,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80315.20000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80316.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80322.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 80428.6,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 80705.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80706.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80706.20000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80707.1,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80708.90000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80712.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80713.5,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80717.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 80968.6,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 81148.6,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 81508.6,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 82588.5,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 82948.5,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 82948.5,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 83488.5,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 83488.5,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 83848.5,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 84208.5,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 84568.40000000001,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 84928.5,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 85288.5,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 85288.5,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 85677.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 85690.40000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 85858.6,
+   "node": 3,
+   "event": "CONFLICT",
+   "arg": 7
+  },
+  {
+   "t": 85858.6,
+   "node": 7,
+   "event": "CONFLICT",
+   "arg": 3
+  },
+  {
+   "t": 85862.40000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 85868.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 86848.40000000001,
+   "node": 12,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 86908.5,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 87088.5,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 87628.40000000001,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 87628.40000000001,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 87808.40000000001,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 88348.40000000001,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 88528.40000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 88888.40000000001,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 89180.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 89186.40000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 89190.70000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 89195.3,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 89248.40000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 89458.5,
+   "node": 3,
+   "event": "CONFLICT",
+   "arg": 7
+  },
+  {
+   "t": 89458.5,
+   "node": 7,
+   "event": "CONFLICT",
+   "arg": 3
+  },
+  {
+   "t": 89608.40000000001,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 89968.40000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 89968.40000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 89984.3,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 89985.70000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 89987.40000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 89992.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 90508.40000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 92214.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 92561.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 92668.3,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 93028.3,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 93028.3,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 93388.3,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 93388.3,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 93427.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93437.3,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93441.70000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93445.20000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93446.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93447.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93447.40000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93449.20000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93453.1,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93458.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93459.40000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93468.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 93748.3,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 94057.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94063.40000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94065.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94070.1,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94072.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94073.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94073.40000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94075.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94076.20000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94078.70000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94082.3,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94087.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 94288.3,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 95368.20000000001,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 95368.3,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 95548.3,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 96988.3,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 97168.3,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 97348.3,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 97888.20000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 97976.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97981.3,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97985.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97989.1,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97990.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97992.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97993.40000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 97995.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 98001.1,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 98015.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 98021.40000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 98052.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 98179.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98184.40000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98187.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98191.1,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98194.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98195.3,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98195.40000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98197.3,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98198.1,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98199.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98202.3,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98207.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 98428.20000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 98788.20000000001,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 98968.20000000001,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 99688.20000000001,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 100364.40000000001,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100370.3,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100373.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100377.1,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100379.40000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100381.40000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100381.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100384.3,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100387.20000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100399.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100403.40000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 100416.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 101308.20000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 101308.20000000001,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 101668.20000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 102028.1,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 102142.40000000001,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102159.40000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102168.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102180.20000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102185.40000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102186.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102187.40000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102193.40000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102196.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102231.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102240.3,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102256.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 102568.20000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 102748.1,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 103288.1,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 104188.1,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 104728.1,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 105088.1,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 105088.1,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 105268.0,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 105268.1,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 105808.1,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 106202.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106205.20000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106206.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106209.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106209.40000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106209.40000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106209.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106210.40000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106212.20000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106217.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106219.3,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106225.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 106581.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106590.3,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106594.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106604.20000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106611.40000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106611.40000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106611.5,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106616.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106616.40000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106619.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 106625.20000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 107031.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 107428.0,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 107428.1,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 107450.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107461.20000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107466.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107474.90000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107485.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107501.6,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107502.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107608.0,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 107608.0,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 107632.40000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107638.20000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107653.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107660.3,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 107684.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 108655.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108663.3,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108669.1,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108693.20000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108868.0,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 108869.40000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108871.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108871.6,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108873.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108874.90000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108877.40000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108881.20000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 108885.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 109408.0,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 109768.0,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 109768.0,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 110129.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 110308.0,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 110345.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 111028.0,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 111208.0,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 111509.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 111513.20000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 111516.40000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 111519.90000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 111521.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 111524.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 111568.0,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 111748.0,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 111958.1,
+   "node": 3,
+   "event": "CONFLICT",
+   "arg": 7
+  },
+  {
+   "t": 111958.1,
+   "node": 7,
+   "event": "CONFLICT",
+   "arg": 3
+  },
+  {
+   "t": 112339.5,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 112340.5,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 112340.8,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 112342.40000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 112344.20000000001,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 112347.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 113007.90000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 113187.8,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 113187.90000000001,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 113367.90000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 113367.90000000001,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 113547.90000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 114447.90000000001,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 114865.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 114971.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 114987.90000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 115347.90000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 116427.90000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 116607.90000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 116967.90000000001,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 116967.90000000001,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 117687.8,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 118157.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118164.1,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118167.3,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118171.6,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118171.70000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118174.6,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118174.70000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118177.6,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 118587.8,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 118947.8,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 118958.6,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118959.6,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118959.70000000001,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118961.6,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118962.70000000001,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118964.3,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118967.1,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 118973.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 119487.8,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 119667.8,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 119667.8,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 119667.8,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 120207.8,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 120567.70000000001,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 120747.8,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 120747.8,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 121467.8,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 122877.70000000001,
+   "node": 3,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 122907.8,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 123138.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123156.20000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123196.20000000001,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123271.40000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123277.6,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123278.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123279.70000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123281.70000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123282.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123286.20000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123289.1,
+   "node": 7,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123299.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 123608.5,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123612.1,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123615.20000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123616.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123617.70000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123618.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123619.70000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123621.6,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123624.40000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123627.70000000001,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 123631.20000000001,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123635.20000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123641.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 123987.70000000001,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 124527.70000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 124707.70000000001,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 124887.70000000001,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 124887.70000000001,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 125607.70000000001,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 125967.70000000001,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 126507.70000000001,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 126507.70000000001,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 127158.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127169.1,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127172.20000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127175.6,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127176.70000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127178.70000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127178.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127180.70000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127184.40000000001,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127191.20000000001,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127193.20000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127200.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 127767.6,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 127767.70000000001,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 127810.5,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127816.20000000001,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127818.20000000001,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127823.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127825.70000000001,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127826.70000000001,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127826.8,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127828.70000000001,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127829.5,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127832.20000000001,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127835.1,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 127843.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 128037.6,
+   "node": 3,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 128037.6,
+   "node": 4,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 128667.6,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 129207.6,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 129567.5,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 129567.6,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 129927.6,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 130287.6,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 130467.6,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 130467.6,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 131007.6,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 131367.6,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 131727.6,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 132237.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 132255.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 132267.6,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 132410.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 132415.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 132627.5,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 132807.6,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 133707.5,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 134067.4,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 134427.5,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 134787.5,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 134787.5,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 134967.5,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 134967.5,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 135327.5,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 135373.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135381.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135385.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135395.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135412.80000000002,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135423.80000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135424.9,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135432.80000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135434.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 135677.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135677.80000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135679.80000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135679.9,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135680.80000000002,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135683.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135689.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135691.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135697.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 135867.5,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 136490.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136497.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136500.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136503.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136504.80000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136505.80000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136506.0,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136507.80000000002,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136520.5,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136728.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136731.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 136750.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 137151.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137154.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137155.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137159.6,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137160.80000000002,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137161.80000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137162.0,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137162.80000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137163.4,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137164.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137166.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137169.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 137487.5,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 137667.5,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 137847.5,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 138387.4,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 138747.4,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 139439.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 139446.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 139451.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 139857.5,
+   "node": 3,
+   "event": "CONFLICT",
+   "arg": 7
+  },
+  {
+   "t": 139857.5,
+   "node": 7,
+   "event": "CONFLICT",
+   "arg": 3
+  },
+  {
+   "t": 140007.0,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 140009.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 140011.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 140367.4,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 140367.4,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 140727.4,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 141267.4,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 141435.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141440.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141441.9,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141443.9,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141444.30000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141446.0,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141446.9,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141446.9,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141449.6,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141455.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141457.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141463.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 141987.4,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 142167.4,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 142265.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142276.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142285.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142377.5,
+   "node": 4,
+   "event": "CONFLICT",
+   "arg": 8
+  },
+  {
+   "t": 142377.5,
+   "node": 8,
+   "event": "CONFLICT",
+   "arg": 4
+  },
+  {
+   "t": 142447.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 142482.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 142518.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 142769.6,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142775.1,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142777.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142782.6,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142784.9,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142786.0,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142786.9,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142787.9,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142788.2,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142791.9,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142793.0,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 142797.6,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 143067.4,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 143607.30000000002,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 143967.30000000002,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 144687.30000000002,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 144687.30000000002,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 145767.30000000002,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 145767.30000000002,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 146667.2,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 147027.30000000002,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 148467.2,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 148647.2,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 149007.2,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 149187.2,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 149187.2,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 149367.2,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 149367.2,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 150807.2,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 150807.2,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 152067.2,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 152247.2,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 152967.1,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 152967.2,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 153224.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153235.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153238.80000000002,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153243.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153245.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153246.2,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153247.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153249.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153255.7,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 153425.7,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153429.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153430.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153430.2,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153432.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153434.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153435.80000000002,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153438.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153445.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 153687.1,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 153867.1,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 154407.1,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 154407.1,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 154587.1,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 154593.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154599.0,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154602.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154608.7,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154612.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154612.2,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154614.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154615.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154618.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154620.80000000002,
+   "node": 6,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 154751.80000000002,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154754.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154754.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154756.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154756.2,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154759.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154762.7,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154769.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154772.0,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 154783.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 155487.1,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 155487.1,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 155568.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155577.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155582.7,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155596.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155900.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155901.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155901.2,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155902.0,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155903.80000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155907.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155908.0,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 155911.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 157107.1,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 157193.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157205.0,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157207.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157215.80000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157219.1,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157221.1,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157222.2,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157224.0,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157224.1,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157227.7,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157229.9,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157234.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 157647.1,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 157827.1,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 158366.90000000002,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 158547.1,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 158727.0,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 159267.0,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 159627.0,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 159987.0,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 160167.0,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 160167.0,
+   "node": 11,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 161067.0,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 161607.0,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 162147.0,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 162327.0,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 163227.0,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 163366.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163369.80000000002,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163372.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163374.80000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163376.2,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163376.30000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163377.2,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163379.1,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163380.80000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163386.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163388.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163396.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 163587.0,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 163666.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163677.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163685.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163747.80000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163753.1,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163754.2,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163754.30000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163757.2,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 163760.80000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164036.90000000002,
+   "node": 7,
+   "event": "EPOCH_ADJUST",
+   "arg": 10
+  },
+  {
+   "t": 164143.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164144.80000000002,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164149.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164306.90000000002,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 164397.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164406.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164411.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164419.90000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164425.2,
+   "node": 3,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164426.2,
+   "node": 1,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164426.30000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164429.2,
+   "node": 2,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164432.80000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164459.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164474.80000000002,
+   "node": 7,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 164567.80000000002,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164569.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164570.80000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164571.2,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164572.2,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164572.40000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164573.2,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164574.90000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164578.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164578.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 164582.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 165386.90000000002,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 165566.90000000002,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 165746.90000000002,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 166689.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 166708.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 166714.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 26
+  },
+  {
+   "t": 166857.0,
+   "node": 3,
+   "event": "CONFLICT",
+   "arg": 5
+  },
+  {
+   "t": 166857.0,
+   "node": 5,
+   "event": "CONFLICT",
+   "arg": 3
+  },
+  {
+   "t": 166891.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 166893.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 166900.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 167186.90000000002,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 167546.90000000002,
+   "node": 2,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 168017.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168019.80000000002,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168020.6,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168022.30000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168022.80000000002,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168023.40000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168024.2,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168025.2,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168026.90000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168031.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168032.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168037.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 168446.90000000002,
+   "node": 4,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 168626.90000000002,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 168765.7,
+   "node": 9,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168774.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168777.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168785.90000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168791.2,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168800.30000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168800.40000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168803.30000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168809.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168811.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168815.80000000002,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 168824.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 169166.80000000002,
+   "node": 8,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 170246.80000000002,
+   "node": 7,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 170786.80000000002,
+   "node": 5,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 170786.80000000002,
+   "node": 9,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 170858.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170861.7,
+   "node": 7,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170863.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170865.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170866.30000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170866.30000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170866.40000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170868.2,
+   "node": 3,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170871.90000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170882.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 170889.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 28
+  },
+  {
+   "t": 171506.80000000002,
+   "node": 12,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 171525.90000000002,
+   "node": 8,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171531.2,
+   "node": 5,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171540.90000000002,
+   "node": 11,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171549.2,
+   "node": 3,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171553.40000000002,
+   "node": 4,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171554.30000000002,
+   "node": 1,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171556.30000000002,
+   "node": 2,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171561.7,
+   "node": 10,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171719.5,
+   "node": 6,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171721.7,
+   "node": 7,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171724.7,
+   "node": 12,
+   "event": "BIN",
+   "arg": 27
+  },
+  {
+   "t": 171866.7,
+   "node": 10,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 172226.80000000002,
+   "node": 3,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 172406.80000000002,
+   "node": 6,
+   "event": "NULL_CAL",
+   "arg": 0
+  },
+  {
+   "t": 172586.80000000002,
+   "node": 1,
+   "event": "NULL_CAL",
+   "arg": 0
+  }
+ ]
+}

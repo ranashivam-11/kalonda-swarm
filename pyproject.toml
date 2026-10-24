@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kalonda"
+version = "1.0.0"
+description = "Peer-to-peer wake steering for a micro-wind array: firmware-in-the-loop simulation, telemetry, GENERIC and Jiles-Atherton generator models, uncertainty budgets"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT (code); CC BY 4.0 (data, docs, figures)" }
+authors = [{ name = "Shivam Rana" }]
+dependencies = ["numpy>=2.0", "scipy>=1.11"]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8", "pillow>=10"]
+dev = ["pytest>=8", "matplotlib>=3.8", "pillow>=10", "ruff>=0.5"]
+
+[project.scripts]
+kalonda = "kalonda.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["python"]
+include = ["kalonda*"]
+
+[tool.pytest.ini_options]
+testpaths = ["python/tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+src = ["python", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E731", "E741", "B905"]

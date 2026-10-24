@@ -1,0 +1,9 @@
+# Source: Rana (2026), SSRN 6297482, Appendix C.2, p.15-16. Sample calculation at the peak power point.
+quantity,value,unit,rel_std_uncertainty_printed_percent
+V_out,79.1,V,0.06
+I_out,,A,0.12
+torque,4.2,N m,0.47
+omega,180,rad/s,0.05
+combined_efficiency,,,0.51
+expanded_k2,,,1.01
+reported_efficiency,48.2,percent,2.11

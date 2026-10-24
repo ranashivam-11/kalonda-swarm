@@ -1,0 +1,63 @@
+# Reference layout used by the simulations in this repository.
+# 12 nodes, 3 rows x 4 columns, 5 D streamwise (10 m) x 3 D spanwise (6 m),
+# D = 2.0 m. Rows run north-south, so the prevailing westerly (270 deg)
+# waters rows 2 and 3 with the wakes of row 1 and 2.
+#
+# To provision nodes at a site, enter each tower's surveyed coordinates
+# (metres east/north of a site datum).
+
+[site]
+name = "demo_grid_3x4"
+datum = "arbitrary"
+rotor_d_m = 2.0
+hub_h_m = 10.0
+espnow_channel = 6
+
+[[node]]
+id = 1
+x_m = 0.0
+y_m = 0.0
+[[node]]
+id = 2
+x_m = 0.0
+y_m = 6.0
+[[node]]
+id = 3
+x_m = 0.0
+y_m = 12.0
+[[node]]
+id = 4
+x_m = 0.0
+y_m = 18.0
+[[node]]
+id = 5
+x_m = 10.0
+y_m = 0.0
+[[node]]
+id = 6
+x_m = 10.0
+y_m = 6.0
+[[node]]
+id = 7
+x_m = 10.0
+y_m = 12.0
+[[node]]
+id = 8
+x_m = 10.0
+y_m = 18.0
+[[node]]
+id = 9
+x_m = 20.0
+y_m = 0.0
+[[node]]
+id = 10
+x_m = 20.0
+y_m = 6.0
+[[node]]
+id = 11
+x_m = 20.0
+y_m = 12.0
+[[node]]
+id = 12
+x_m = 20.0
+y_m = 18.0

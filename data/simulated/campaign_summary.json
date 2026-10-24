@@ -1,0 +1,695 @@
+{
+ "runs": {
+  "E0_frozen_greedy": {
+   "hours": 167.975,
+   "energy_wh": 26200.2,
+   "efficiency": 0.5496,
+   "decisions": {
+    "ACCEPT": 0,
+    "HOLD": 0,
+    "REJECT": 0,
+    "ABORT": 0
+   },
+   "abort_rate": null,
+   "final_bin27_deg": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "kappa_stable_range": [
+    2.33,
+    2.89
+   ],
+   "kappa_stable_median": 2.59,
+   "radio_loss": 0.05
+  },
+  "E0_frozen_optimum": {
+   "hours": 167.975,
+   "energy_wh": 28966.8,
+   "efficiency": 0.6076,
+   "decisions": {
+    "ACCEPT": 0,
+    "HOLD": 0,
+    "REJECT": 0,
+    "ABORT": 0
+   },
+   "abort_rate": null,
+   "final_bin27_deg": [
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0,
+    25.0
+   ],
+   "kappa_stable_range": [
+    2.37,
+    2.72
+   ],
+   "kappa_stable_median": 2.49,
+   "radio_loss": 0.05
+  },
+  "E1_coop_from_greedy": {
+   "hours": 167.975,
+   "energy_wh": 27939.6,
+   "efficiency": 0.5861,
+   "decisions": {
+    "ACCEPT": 180,
+    "HOLD": 3460,
+    "REJECT": 614,
+    "ABORT": 619
+   },
+   "abort_rate": 0.127,
+   "final_bin27_deg": [
+    22.5,
+    24.4,
+    5.0,
+    21.2,
+    5.0,
+    4.1,
+    12.2,
+    7.5
+   ],
+   "kappa_stable_range": [
+    2.35,
+    2.96
+   ],
+   "kappa_stable_median": 2.49,
+   "radio_loss": 0.05
+  },
+  "E1_selfish_from_greedy": {
+   "hours": 167.975,
+   "energy_wh": 26726.6,
+   "efficiency": 0.5607,
+   "decisions": {
+    "ACCEPT": 75,
+    "HOLD": 3774,
+    "REJECT": 548,
+    "ABORT": 295
+   },
+   "abort_rate": 0.063,
+   "final_bin27_deg": [
+    0.0,
+    10.6,
+    2.5,
+    0.0,
+    5.0,
+    12.5,
+    0.0,
+    4.4
+   ],
+   "kappa_stable_range": [
+    2.36,
+    2.94
+   ],
+   "kappa_stable_median": 2.58,
+   "radio_loss": 0.05
+  },
+  "E1_selfish_from_coop": {
+   "hours": 167.975,
+   "energy_wh": 27423.1,
+   "efficiency": 0.5753,
+   "decisions": {
+    "ACCEPT": 102,
+    "HOLD": 3792,
+    "REJECT": 539,
+    "ABORT": 295
+   },
+   "abort_rate": 0.062,
+   "final_bin27_deg": [
+    5.0,
+    2.5,
+    1.2,
+    6.2,
+    6.9,
+    6.9,
+    0.0,
+    21.2
+   ],
+   "kappa_stable_range": [
+    2.34,
+    2.91
+   ],
+   "kappa_stable_median": 2.59,
+   "radio_loss": 0.05
+  },
+  "E2_beta_0.00": {
+   "hours": 47.975,
+   "energy_wh": 7480.6,
+   "efficiency": 0.5494,
+   "decisions": {
+    "ACCEPT": 23,
+    "HOLD": 1087,
+    "REJECT": 152,
+    "ABORT": 126
+   },
+   "abort_rate": 0.091,
+   "final_bin27_deg": [
+    2.5,
+    7.5,
+    0.0,
+    0.0,
+    0.0,
+    2.5,
+    6.9,
+    8.8
+   ],
+   "kappa_stable_range": [
+    1.98,
+    2.94
+   ],
+   "kappa_stable_median": 2.64,
+   "radio_loss": 0.05
+  },
+  "E2_beta_0.25": {
+   "hours": 47.975,
+   "energy_wh": 7539.8,
+   "efficiency": 0.5537,
+   "decisions": {
+    "ACCEPT": 41,
+    "HOLD": 1063,
+    "REJECT": 164,
+    "ABORT": 138
+   },
+   "abort_rate": 0.098,
+   "final_bin27_deg": [
+    0.0,
+    6.2,
+    8.4,
+    5.6,
+    0.0,
+    7.5,
+    12.8,
+    5.3
+   ],
+   "kappa_stable_range": [
+    1.99,
+    2.92
+   ],
+   "kappa_stable_median": 2.64,
+   "radio_loss": 0.05
+  },
+  "E2_beta_0.50": {
+   "hours": 47.975,
+   "energy_wh": 7665.5,
+   "efficiency": 0.563,
+   "decisions": {
+    "ACCEPT": 58,
+    "HOLD": 1058,
+    "REJECT": 165,
+    "ABORT": 133
+   },
+   "abort_rate": 0.094,
+   "final_bin27_deg": [
+    3.8,
+    18.8,
+    12.5,
+    0.0,
+    6.3,
+    10.0,
+    22.5,
+    3.8
+   ],
+   "kappa_stable_range": [
+    1.98,
+    2.72
+   ],
+   "kappa_stable_median": 2.66,
+   "radio_loss": 0.05
+  },
+  "E2_beta_0.75": {
+   "hours": 47.975,
+   "energy_wh": 7794.9,
+   "efficiency": 0.5725,
+   "decisions": {
+    "ACCEPT": 68,
+    "HOLD": 1057,
+    "REJECT": 166,
+    "ABORT": 155
+   },
+   "abort_rate": 0.107,
+   "final_bin27_deg": [
+    20.0,
+    7.2,
+    25.0,
+    0.0,
+    18.2,
+    8.8,
+    22.5,
+    7.5
+   ],
+   "kappa_stable_range": [
+    2.05,
+    2.81
+   ],
+   "kappa_stable_median": 2.65,
+   "radio_loss": 0.05
+  },
+  "E2_beta_1.00": {
+   "hours": 47.975,
+   "energy_wh": 7844.1,
+   "efficiency": 0.5761,
+   "decisions": {
+    "ACCEPT": 73,
+    "HOLD": 1052,
+    "REJECT": 163,
+    "ABORT": 159
+   },
+   "abort_rate": 0.11,
+   "final_bin27_deg": [
+    22.5,
+    7.5,
+    12.5,
+    25.0,
+    18.2,
+    1.2,
+    25.0,
+    7.5
+   ],
+   "kappa_stable_range": [
+    1.98,
+    2.82
+   ],
+   "kappa_stable_median": 2.67,
+   "radio_loss": 0.05
+  },
+  "E3_diurnal_coop": {
+   "hours": 167.975,
+   "energy_wh": 39956.8,
+   "efficiency": 0.657,
+   "decisions": {
+    "ACCEPT": 184,
+    "HOLD": 3531,
+    "REJECT": 618,
+    "ABORT": 613
+   },
+   "abort_rate": 0.124,
+   "final_bin27_deg": [
+    1.6,
+    14.1,
+    6.6,
+    9.2,
+    25.0,
+    0.0,
+    17.4,
+    6.8
+   ],
+   "kappa_stable_range": [
+    2.14,
+    3.03
+   ],
+   "kappa_stable_median": 2.6,
+   "radio_loss": 0.05
+  },
+  "E3_diurnal_selfish": {
+   "hours": 167.975,
+   "energy_wh": 39855.5,
+   "efficiency": 0.6553,
+   "decisions": {
+    "ACCEPT": 70,
+    "HOLD": 3865,
+    "REJECT": 557,
+    "ABORT": 293
+   },
+   "abort_rate": 0.061,
+   "final_bin27_deg": [
+    8.3,
+    5.0,
+    0.0,
+    11.2,
+    7.5,
+    0.0,
+    13.8,
+    11.4
+   ],
+   "kappa_stable_range": [
+    2.16,
+    2.83
+   ],
+   "kappa_stable_median": 2.59,
+   "radio_loss": 0.05
+  },
+  "E4_coop_bursty_loss30": {
+   "hours": 47.975,
+   "energy_wh": 7804.9,
+   "efficiency": 0.5732,
+   "decisions": {
+    "ACCEPT": 48,
+    "HOLD": 623,
+    "REJECT": 110,
+    "ABORT": 653
+   },
+   "abort_rate": 0.455,
+   "final_bin27_deg": [
+    4.4,
+    12.5,
+    0.0,
+    21.2,
+    25.0,
+    11.2,
+    13.8,
+    20.7
+   ],
+   "kappa_stable_range": [
+    2.08,
+    2.92
+   ],
+   "kappa_stable_median": 2.6,
+   "radio_loss": 0.31
+  },
+  "E5_naive_selfish": {
+   "hours": 47.975,
+   "energy_wh": 7691.6,
+   "efficiency": 0.5649,
+   "decisions": {
+    "ACCEPT": 387,
+    "HOLD": 0,
+    "REJECT": 793,
+    "ABORT": 60
+   },
+   "abort_rate": 0.048,
+   "final_bin27_deg": [
+    12.5,
+    9.5,
+    0.0,
+    5.6,
+    23.8,
+    12.5,
+    10.4,
+    17.6
+   ],
+   "kappa_stable_range": [
+    1.0,
+    1.0
+   ],
+   "kappa_stable_median": 1.0,
+   "radio_loss": 0.05
+  },
+  "E5_naive_coop": {
+   "hours": 47.975,
+   "energy_wh": 7868.7,
+   "efficiency": 0.5779,
+   "decisions": {
+    "ACCEPT": 452,
+    "HOLD": 0,
+    "REJECT": 741,
+    "ABORT": 150
+   },
+   "abort_rate": 0.112,
+   "final_bin27_deg": [
+    12.5,
+    19.1,
+    12.5,
+    25.0,
+    13.1,
+    18.8,
+    12.2,
+    18.8
+   ],
+   "kappa_stable_range": [
+    1.0,
+    1.0
+   ],
+   "kappa_stable_median": 1.0,
+   "radio_loss": 0.05
+  },
+  "E5_selfish": {
+   "hours": 47.975,
+   "energy_wh": 7482.3,
+   "efficiency": 0.5495,
+   "decisions": {
+    "ACCEPT": 26,
+    "HOLD": 1117,
+    "REJECT": 165,
+    "ABORT": 67
+   },
+   "abort_rate": 0.049,
+   "final_bin27_deg": [
+    0.0,
+    10.0,
+    3.8,
+    5.0,
+    0.0,
+    2.5,
+    4.4,
+    3.8
+   ],
+   "kappa_stable_range": [
+    1.99,
+    2.82
+   ],
+   "kappa_stable_median": 2.57,
+   "radio_loss": 0.05
+  }
+ },
+ "E1": {
+  "coop_vs_selfish": {
+   "gain_pct": 4.51,
+   "ci95_pct": [
+    4.14,
+    4.88
+   ]
+  },
+  "coop_vs_selfish_last48h": {
+   "gain_pct": 5.1,
+   "ci95_pct": [
+    4.8,
+    5.48
+   ]
+  },
+  "coop_vs_greedy_frozen_last48h": {
+   "gain_pct": 7.58,
+   "ci95_pct": [
+    7.33,
+    7.83
+   ]
+  },
+  "optimum_vs_greedy_frozen": {
+   "gain_pct": 10.56,
+   "ci95_pct": [
+    10.22,
+    10.91
+   ]
+  },
+  "selfish_vs_greedy_frozen_last48h": {
+   "gain_pct": 2.36,
+   "ci95_pct": [
+    2.01,
+    2.66
+   ]
+  },
+  "selfish_from_coop_vs_selfish_first24h": {
+   "gain_pct": 4.82,
+   "ci95_pct": [
+    3.36,
+    6.28
+   ]
+  },
+  "selfish_from_coop_vs_selfish_last48h": {
+   "gain_pct": 2.05,
+   "ci95_pct": [
+    1.75,
+    2.39
+   ]
+  },
+  "captured_fraction_last48h": 0.686,
+  "captured_fraction_by_night": {
+   "E1_coop_from_greedy": [
+    0.455,
+    0.549,
+    0.624,
+    0.652,
+    0.722,
+    0.685,
+    0.687
+   ],
+   "E1_selfish_from_greedy": [
+    0.09,
+    0.199,
+    0.24,
+    0.196,
+    0.173,
+    0.191,
+    0.236
+   ],
+   "E1_selfish_from_coop": [
+    0.59,
+    0.468,
+    0.42,
+    0.392,
+    0.433,
+    0.403,
+    0.403
+   ]
+  },
+  "selfish_from_coop_captured_fraction_last48h": 0.403,
+  "selfish_from_coop_mean_bin27_deg": {
+   "0h": 25.0,
+   "6h": 8.8,
+   "24h": 8.8,
+   "167.975h": 6.2
+  },
+  "efficiency_last48h": {
+   "E0_frozen_greedy": 0.5522,
+   "E0_frozen_optimum": 0.6132,
+   "E1_coop_from_greedy": 0.594,
+   "E1_selfish_from_greedy": 0.5652,
+   "E1_selfish_from_coop": 0.5767
+  },
+  "mean_bin27_deg_end": {
+   "E0_frozen_greedy": 0.0,
+   "E0_frozen_optimum": 25.0,
+   "E1_coop_from_greedy": 12.7,
+   "E1_selfish_from_greedy": 4.4,
+   "E1_selfish_from_coop": 6.2
+  },
+  "score_se_by_row_coop": {
+   "0": 4.7854,
+   "1": 3.1132
+  },
+  "abort_causes_coop": {
+   "SECTOR": 0.061,
+   "SELF": 0.077,
+   "MODE": 0.0,
+   "MISSED": 0.0,
+   "lost_report": 0.011,
+   "all": 0.127
+  }
+ },
+ "E2": {
+  "0.00": {
+   "gain_pct": 0.0,
+   "ci95_pct": [
+    0.0,
+    0.0
+   ],
+   "mean_bin27_deg_end": 3.5
+  },
+  "0.25": {
+   "gain_pct": 0.7,
+   "ci95_pct": [
+    0.19,
+    1.22
+   ],
+   "mean_bin27_deg_end": 5.7
+  },
+  "0.50": {
+   "gain_pct": 2.39,
+   "ci95_pct": [
+    2.11,
+    2.75
+   ],
+   "mean_bin27_deg_end": 9.7
+  },
+  "0.75": {
+   "gain_pct": 4.19,
+   "ci95_pct": [
+    3.53,
+    4.83
+   ],
+   "mean_bin27_deg_end": 13.6
+  },
+  "1.00": {
+   "gain_pct": 4.79,
+   "ci95_pct": [
+    4.21,
+    5.33
+   ],
+   "mean_bin27_deg_end": 14.9
+  }
+ },
+ "E3": {
+  "whole": {
+   "gain_pct": 0.24,
+   "ci95_pct": [
+    0.08,
+    0.43
+   ]
+  },
+  "night_21_06_after_day2": {
+   "gain_pct": 1.11,
+   "ci95_pct": [
+    0.71,
+    1.51
+   ]
+  },
+  "day_10_17_after_day2": {
+   "gain_pct": -0.12,
+   "ci95_pct": [
+    -0.31,
+    0.07
+   ]
+  },
+  "final_bin63_deg": [
+   6.1,
+   8.4,
+   3.7,
+   16.5,
+   16.2,
+   3.8,
+   8.8,
+   5.0
+  ]
+ },
+ "E4": {
+  "vs_5pct_loss": {
+   "gain_pct": -0.38,
+   "ci95_pct": [
+    -0.67,
+    -0.07
+   ]
+  },
+  "abort_rate": 0.455,
+  "abort_rate_5pct": 0.11
+ },
+ "E5": {
+  "coop_vs_selfish_naive": {
+   "gain_pct": 2.36,
+   "ci95_pct": [
+    2.04,
+    2.7
+   ]
+  },
+  "coop_vs_selfish_calibrated": {
+   "gain_pct": 4.82,
+   "ci95_pct": [
+    4.23,
+    5.39
+   ]
+  },
+  "naive_coop_vs_calibrated_coop": {
+   "gain_pct": 0.35,
+   "ci95_pct": [
+    0.01,
+    0.69
+   ]
+  },
+  "selfish_mean_deg_naive": 11.5,
+  "selfish_mean_deg_calibrated": 3.7,
+  "selfish_z_sd_naive": 2.66,
+  "selfish_z_sd_calibrated": 1.06,
+  "selfish_frac_abs_z_gt2_naive": 0.407,
+  "selfish_frac_abs_z_gt2_calibrated": 0.059
+ },
+ "z_sd_calibrated_selfish": {
+  "E1_selfish_from_greedy": 1.045,
+  "E1_selfish_from_coop": 1.063,
+  "E3_diurnal_selfish": 1.03,
+  "E5_selfish": 1.065
+ },
+ "field_toggle_planning": {
+  "sd_adjacent_hour_rel": 0.0871,
+  "pairs_needed": {
+   "0.020": 150,
+   "0.050": 24,
+   "0.076": 11
+  }
+ }
+}

@@ -1,0 +1,16 @@
+# Parameters quoted from the literature and used as priors, defaults or cross-checks.
+quantity,value,unit,context,reference
+NO steel energy-based model ms,1.23e6,A/m,arctan anhysteretic fitted to NO steel major loop,Prigozhin et al. 2016 arXiv:1605.08748
+NO steel energy-based model A,38,A/m,arctan steepness (A ~ 1.7 x Langevin a),Prigozhin et al. 2016 arXiv:1605.08748
+NO steel energy-based model k,71,A/m,dry-friction pinning field,Prigozhin et al. 2016 arXiv:1605.08748
+Gaussian wake alpha,0.58,1,near-wake length,Bastankhah & Porte-Agel 2016 JFM 806:506; FLORIS gauss.py default
+Gaussian wake beta,0.077,1,near-wake length,Bastankhah & Porte-Agel 2016 JFM 806:506; FLORIS gauss.py default
+Gaussian wake ka,0.38,1,wake expansion k = ka*TI + kb,Niayifar & Porte-Agel 2016; FLORIS default
+Gaussian wake kb,0.004,1,wake expansion k = ka*TI + kb,Niayifar & Porte-Agel 2016; FLORIS default
+cos^p yaw-loss exponent,1.88,1,NREL 5MW LES,Fleming et al. 2015 (via WES 9:1547 2024 review)
+cos^p yaw-loss exponent,2.1,1,scaled wind-tunnel model,Campagnolo et al. 2020 (via wes-2023-133)
+cos^p yaw-loss exponent,3.0,1,scaled wind-tunnel models,Krogstad & Adaramola 2012; Bartl et al. 2018
+miniature-array yaw-control gain,17,percent,5 rows of 15 cm rotors; first row yawed most,Bastankhah & Porte-Agel 2019 JRSE 11:023301
+field wake-steering gain (pair),4,percent,two turbines over 10 deg sector; downstream +14 %,Fleming et al. 2019 WES 4:273
+field toggle period,3600,s,hourly on/off toggling,Fleming et al. 2019 WES 4:273
+energy-ratio direction bin,2,deg,1 deg overlap; bootstrap >= 1000,Fleming et al. 2019 WES 4:273

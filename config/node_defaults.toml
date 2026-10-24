@@ -1,0 +1,22 @@
+# Firmware parameters applied to every node at provisioning (names as in
+# firmware/src/ks_params.c; `show` on the node console lists them all).
+# Values here are the reference build's; adjust to your hardware.
+
+utility = 1            # 1 = sacrifice-aware cooperative, 0 = selfish
+beta = 1.0             # weight on measured downstream gains
+accept_z = 2.0         # pooled sequential test: move once z > 2 ...
+reject_z = 1.0         # ... give up once z < -1 ...
+pool_max = 12          # ... or after 12 inconclusive repeats
+epoch_ms = 30000       # one ABBA phase (see docs/multi_agent.md on phase length)
+settle_ms = 9000       # >= 3 x (yaw slew + rotor + wake advection) on your rotor
+block_ms = 3000
+yaw_offset_max_deg = 25.0
+step_init_deg = 10.0
+step_min_deg = 2.5
+step_max_deg = 12.5
+u_min_ms = 2.5
+u_max_ms = 9.0
+t_magnet_max_c = 75.0
+brake_max_magnet_c = 60.0
+toggle_mode = 0        # 2 = keyed pseudo-random hourly toggle for validation
+toggle_period_s = 3600

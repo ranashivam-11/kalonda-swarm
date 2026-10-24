@@ -1,0 +1,16 @@
+# Source: Rana (2026), SSRN 6297482, Appendix D.1, Fig. 10, p.16 ("Monthly Weibull Parameters - Kalonda Site").
+# DIGITISED by colour segmentation of the 220-dpi page render (scripts/digitise_fig10.py);
+# estimated read-out uncertainty +-0.01 (one pixel = 0.0088 units).
+month,shape_k,mean_wind_m_per_s
+1,1.85,3.47
+2,2.10,3.94
+3,2.30,4.25
+4,2.25,4.53
+5,2.15,4.96
+6,1.90,5.50
+7,1.65,5.18
+8,1.55,4.40
+9,1.60,3.65
+10,1.75,2.51
+11,1.80,2.31
+12,1.82,2.74

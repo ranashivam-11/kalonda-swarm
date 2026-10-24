@@ -1,0 +1,11 @@
+# Source: Rana (2026), SSRN 6297482, Appendix A.3, Table I, p.11.
+# "Identified Jiles-Atherton Parameters for M400-50A Electrical Steel" (PSO fit, per the preprint).
+# K_an is listed as dimensionless in the preprint; see docs/hysteresis.md for how this
+# repository interprets it (transverse/rolling-direction hardness ratio).
+symbol,parameter,value,unit
+Ms,saturation magnetization,1.28e6,A/m
+a,domain wall density (anhysteretic shape),58.5,A/m
+k,pinning energy,55.0,A/m
+alpha,inter-domain coupling,1.15e-4,1
+c,reversibility coefficient,0.081,1
+K_an,anisotropy factor,0.98,1

@@ -1,0 +1,18 @@
+Data, documentation and figures in this repository (data/, docs/, figures/,
+README.md) are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: cite the repository (CITATION.cff) and, for anything under
+data/preprint/, the preprint the values were transcribed from:
+
+  Rana, S. (2026). Thermodynamic Optimization of Electromechanical Energy
+  Conversion: Integrating Magnetothermodynamic Feedback, Metamaterial Flux
+  Concentration, and Non-Equilibrium Control Architectures. SSRN 6297482.
+
+The preprint itself is not redistributed here and remains under its own
+terms. Values under data/reference/ are quoted from the datasheets and papers
+named in each row; their sources' terms apply to the originals.
+
+Source code (firmware/, python/, scripts/, Makefile, CI configuration) is
+licensed separately under the MIT License (LICENSE).

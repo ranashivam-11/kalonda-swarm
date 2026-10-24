@@ -1,0 +1,22 @@
+# build outputs
+firmware/build*/
+firmware/ports/esp32/build/
+firmware/ports/esp32/sdkconfig
+firmware/ports/esp32/sdkconfig.old
+firmware/ports/esp32/managed_components/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+.venv/
+
+# site secrets and provisioning output: never commit an array key
+array.key
+*.key
+provision/
+
+# local field data (raw captures belong in an archive, not in git)
+data/raw/
+*.bin
+!data/**/*.bin.example

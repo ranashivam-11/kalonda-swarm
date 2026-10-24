@@ -1,0 +1,13 @@
+# Scalar claims of Rana (2026), SSRN 6297482, with location.
+claim,value,unit,location
+electromechanical conversion efficiency,48.2 +- 2.11,percent,Abstract; Sec. VII.A; App. C
+cut-in wind speed,2,m/s,Abstract; Sec. VII.C
+baseline cut-in wind speed,3 / 5 / 4-5,m/s,Sec. I.A; Sec. III.C; App. D.1
+flux leakage reduction,18,percent,Abstract; Sec. III
+households electrified,53 / 17,households,Abstract / Sec. IX
+prototypes deployed in Kalonda,43,units,Sec. VI.B
+mean daily energy,1.23 +- 0.35,kWh/day,Sec. VII.B
+Unit 14 daily energy (Oct 15),0.68,kWh,App. D.2
+operational uptime,94.2,percent,Sec. VII.B
+output voltage,48.0 +- 0.5,V AC,Sec. VII.A
+manufacturing cost,2100 (~35 USD),INR,Sec. VIII.A
